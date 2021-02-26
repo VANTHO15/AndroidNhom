@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    >
+    <EditText
+        android:id="@+id/edHoTen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="25dp"
+        android:textColor="#F00"
+        android:hint="Họ và Tên"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        >
+    </EditText>
+    <EditText
+        android:id="@+id/edlop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="25dp"
+        android:textColor="#F00"
+        android:hint="Lớp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        >
+    </EditText>
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#FF0"
+        android:textSize="25dp"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:backgroundTint="#F00"
+        >
+    </Button>
+    <Button
+        android:id="@+id/btnGet"
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#FF0"
+        android:textSize="25dp"
+        android:text="Get"
+        android:textAllCaps="false"
+        android:backgroundTint="#00BCD4"
+        >
+    </Button>
+</LinearLayout>

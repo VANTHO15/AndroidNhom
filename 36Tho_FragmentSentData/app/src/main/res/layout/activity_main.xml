@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/LNActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/txtGetDataFromFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhận được từ Fragment"
+        android:textSize="25dp"
+        android:textColor="#9C27B0"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        >
+    </TextView>
+    <EditText
+        android:id="@+id/edtActivity"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="30dp"
+        android:hint="Nhập vào "
+        android:textColor="#00BCD4"
+        android:textSize="25dp"
+        >
+    </EditText>
+    <Button
+        android:id="@+id/btnSentDataToFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textSize="25dp"
+        android:backgroundTint="#E91E63"
+        android:text="Sent Data To Fragment"
+        android:textColor="#FFEB3B"
+        android:textAllCaps="false"
+        >
+    </Button>
+
+
+</LinearLayout>

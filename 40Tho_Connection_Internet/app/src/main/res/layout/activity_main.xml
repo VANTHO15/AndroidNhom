@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    >
+    <Button
+        android:id="@+id/btnDownload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#F00"
+        android:textSize="25dp"
+        android:textAllCaps="false"
+        android:text="Download Image"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:backgroundTint="#FF0"
+        >
+    </Button>
+    <ImageView
+        android:id="@+id/imgAnh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        >
+    </ImageView>
+</LinearLayout>
